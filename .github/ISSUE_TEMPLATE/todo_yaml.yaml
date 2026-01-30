@@ -1,6 +1,6 @@
 name: 後続工程Todo Template
 description: Todo記載
-title: '（命名規則：[項目番号3桁].[項目名]　後続工程TODO：[一言でタイトルを記載]　　例）016.コードベース　後続工程TODO：○○）'
+title: "（命名規則：[項目番号3桁].[項目名]　後続工程TODO：[一言でタイトルを記載]　　例）016.コードベース　後続工程TODO：○○）"
 labels:
   - グランドデザイン工程
 assignees: []
@@ -37,7 +37,7 @@ body:
     id: related_pr
     attributes:
       label: 関連プルリクエスト
-      description: このタスクの発生元となったプルリクエストがあれば番号を記載してください。（例: PR #123 のレビュー指摘）
-      placeholder: '例: #123'
+      description: "このタスクの発生元となったプルリクエストがあれば番号を記載してください。（例: PR #123 のレビュー指摘）"
+      placeholder: "例: #123"
     validations:
       required: false
