@@ -1,6 +1,5 @@
 name: 後続工程Todo Template(yaml)
 description: Todo記載
-title: ""
 labels:
   - グランドデザイン工程
 assignees: []
