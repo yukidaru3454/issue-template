@@ -38,6 +38,6 @@ body:
     attributes:
       label: 関連プルリクエスト
       description: このタスクの発生元となったプルリクエストがあれば番号を記載してください。（例: PR #123 のレビュー指摘）
-      placeholder: 例: #123
+      placeholder: '例: #123'
     validations:
       required: false
