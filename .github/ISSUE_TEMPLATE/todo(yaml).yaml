@@ -1,0 +1,43 @@
+name: 後続工程Todo Template
+description: Todo記載
+title: '（命名規則：[項目番号3桁].[項目名]　後続工程TODO：[一言でタイトルを記載]　　例）016.コードベース　後続工程TODO：○○）'
+labels:
+  - グランドデザイン工程
+assignees: []
+
+body:
+  - type: textarea
+    id: detail
+    attributes:
+      label: 詳細
+      description: todoの目的、内容を記載。新規参画者にもわかるレベルで記載してください。
+      placeholder: 具体的な内容や背景、目的など分かりやすく書いてください。
+    validations:
+      required: true
+
+  - type: input
+    id: process
+    attributes:
+      label: 対応工程
+      description: 機能デザイン工程や開発など、対応する工程時期を記載してください。
+      placeholder: 例）機能デザイン工程
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: ゴール
+      description: 簡潔に1-2文で記載してください。ゴールが不明であればその旨も併せて記載ください。
+      placeholder: ゴールが分かる場合は記載。不明であればその旨も記載。
+    validations:
+      required: true
+
+  - type: input
+    id: related_pr
+    attributes:
+      label: 関連プルリクエスト
+      description: このタスクの発生元となったプルリクエストがあれば番号を記載してください。（例: PR #123 のレビュー指摘）
+      placeholder: 例: #123
+    validations:
+      required: false
